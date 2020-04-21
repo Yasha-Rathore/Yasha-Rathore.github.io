@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<link rel="shortcut icon" href="total/favicon.JPG" type="image/jpg">
+<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css" />
+<link href="http://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet" type="text/css" />
+<link href="http://fonts.googleapis.com/css?family=Euphoria+Script" rel="stylesheet" type="text/css" />
+<link href="http://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet" type="text/css" />
+<style>
+	ul {
+			list-style-type: none;
+			margin-top:0px;
+			padding:0px;
+			overflow: hidden;
+			opacity:0.7;
+			text-align:right;
+			background-color:rgb(228,210,258);
+			}
+
+			li {
+			float:left;
+			text-align:center;
+			display: block;
+			color:indigo;
+			text-decoration: none;
+			padding:20px 30px 20px 30px;
+			font-size:30px;
+			font-family:Lobster;
+			}
+
+			#current:hover{
+			background-color:rgb(245,240,240);
+			}
+
+			li a {
+			background-color:rgb(240,240,240)
+			float:right;
+			text-align:center;
+			display: block;
+			color:indigo;
+			text-decoration: none;
+			}
+			li:hover {
+			background-color:rgb(245,230,230);
+			}
+		div#header1 {
+			position:fixed;
+			top:10px;
+			bottom:10px;
+			left:0px;
+			width:100%;
+			}
+		.haus>a {
+      position:relative;
+		 	z-index: 5000;
+			}
+</style>
+</head>
+
+
+<body>
+
+	<div id="header1">
+		<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="About_me.html">About Me</a></li>
+		<li><a href="works.html">Works</a></li>
+		<li id="current">Contact</li>
+		</ul>
+	</div>
+	<div style="background-image:url('total/contact.jpg');margin-top:100px;background-size:contain;background-repeat:no-repeat;opacity:1;">
+<div style="display:inline-block;width:48%;">
+	<div class="haus">
+	  <a href="https://www.linkedin.com/in/yashasvi-rathore-06b3b4192/" target="_blank">
+			<img src="total/linkedin.JPG" alt="Linkedin Id" width="78px" height="75px" style="display: inline;vertical-align:top;margin:260px 0px 50px 245px;">
+		</a>
+	</div>
+	<div class="haus">
+	  <a href="https://www.instagram.com/" target="_blank">
+			<img src="total/insta.JPG" width="81px" height="78px" style="display: inline;vertical-align:top; margin:0px 0px 50px 245px">
+		</a>
+	</div>
+	<div class="haus" >
+		<a href="https://www.facebook.com/yashasvi.rathore.969" target="_blank">
+			<img src="total/facebook.JPG" alt="facebook id" width="75px" height="75px" style="display: inline;vertical-align:top; margin:0px 0px 60px 245px;">
+		</a>
+	</div>
+</div>
+<div style="display:inline-block;width:48%;vertical-align:top;position:relative;z-index:9999;">
+		<div style="font-family:Abril Fatface; font-size:42px;margin:0px 0px 0px 220px;color:white;">Contact Me:</div>
+		<form action="/action_page.php" align="left">
+		  <fieldset style="width:600px;margin-left:0px;margin-top:25px;background-color:#ffd8e1;" >
+		    <legend style="font-family:Euphoria Script; font-size:300%;color:indigo;"><b>Intro:</b></legend>
+		    <label for="fname" style="font-family:Abril Fatface; font-size:150%;color:rgb(175,0,101);">Name:</label>
+		    <input type="text" id="fname" name="fname" size="42" style="font-family:Lobster Two; font-size:130%;"><br><br>
+			<label for="email" style="font-family:Abril Fatface; font-size:150%;color:rgb(175,0,101);">Email:</label>
+			<input type="email" id="email" name="email" style="font-family:Lobster Two; font-size:130%" size="42"><br><br>
+			<label for="phone" style="font-family:Abril Fatface; font-size:150%;color:rgb(175,0,101);">Phone Number:</label>
+			<input type="tel" id="phone" name="phone" style="font-family:Lobster Two; font-size:130%;" size="32" pattern="[0-9]{10}">
+			</fieldset>
+			
+		<fieldset style="width:600px;margin-left:0px;margin-top:20px;background-color:#ffd8e1;" >
+		    <legend style="font-family:Euphoria Script; font-size:300%;color:indigo"><b>Got a Question?:</b></legend>
+			<label for="query" style="font-family:Abril Fatface; font-size:150%;color:rgb(175,0,101);">Query:</label>
+		    <textarea id="query" name="query" cols="40" rows="3" style="font-family:Lobster Two; font-size:130%"></textarea><br><br>
+			<input type="submit" onclick="alert('Congratulations! Submission Complete')" value="Submit" style="font-family:Lobster; font-size:130%; margin-left:520px;">
+		</fieldset>
+	</div>
+</div>
+
+</body>
+</html>
